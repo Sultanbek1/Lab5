@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style3.css"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <article class="container w-50">
+        <header>
+            <h1 class="text-center">Health Product Satisfaction Survey</h1>
+        </header>
+        <br>
+        <hr>
+        <article class="mt-5">
+            <form id="survey-form">
+                <label for="sNumber" id="first">Survey Number</label>
+                <input class="form-control text-muted" type="text" id="sNumber" name="sNumber" value="0000">
+
+                <label for="sDate" >Survey Date</label>
+                <input type="date" id="sDate" name="sDate" value="2021-09-29">
+                <div id="smallDate"> <small><i>Date</i></small> </div>
+
+                <label for="hProductName">Health Product Name</label>
+                <input type="text" id="hProductName" name="hProductName">
+
+                <br><br>
+
+                <p style="font-size: 20px; margin-bottom: 0px;">Type of Health Product</p>
+                <input type="checkbox" id="pharmProduct" name="pharmProduct">
+                <label for="pharmProduct" class="checkbox-lb">Pharmaceutical products</label>
+                
+                <input type="checkbox" id="supplements" name="supplements" style="margin-left: 200px;">
+                <label for="supplements" class="checkbox-lb">Supplements</label>
+
+                <br>
+
+                <input type="checkbox" id="org" name="org">
+                <label for="org" class="checkbox-lb">Organic Remedies</label>
+
+                <input type="checkbox" id="medical" name="medical" style="margin-left: 240px;">
+                <label for="medical" class="checkbox-lb">Medical devices</label>
+
+                <br>
+
+                <input type="checkbox" id="health" name="health">
+                <label for="health" class="checkbox-lb">Health and Beauty</label>
+
+                <input type="checkbox" id="sport" name="sport" style="margin-left: 240px;">
+                <label for="sport" class="checkbox-lb">Sports and Fitness</label>
+
+                <br>
+
+                <input type="checkbox" id="other" name="other">
+                <label for="other" class="checkbox-lb">Other</label>
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <label for="desc">Health Product Description(General Purpose)</label>
+                <br><br>
+                <textarea id="desc" name="desc" rows="10" cols="95" placeholder="Type here..." style="padding: 20px;"></textarea>
+
+
+                <br><br><br>
+
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Not Selected</th>
+                        <th>Somewhat Satisfied</th>
+                        <th>Satisfied</th>
+                    </tr>
+                    <tr>
+                        <td>Product Quality</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    <tr>
+                        <td>Product Effictiveness</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    <tr>
+                        <td>Effectiveness</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    <tr>
+                        <td>Easy to use?</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Purchase Experience</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    <tr>
+                        <td>Price(SRP)</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    <tr>
+                        <td>Result Outcome</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    <tr>
+                        <td>Instructions</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    <tr>
+                        <td>Documentation</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    <tr>
+                        <td>After Purchase support</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                    <tr>
+                        <td>Customer Service</td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                        <td><input type="checkbox" name="tcheckbox" class="tBox"></td>
+                    </tr>
+                </table>
+
+
+                <br><br><br>
+
+
+                <p style="font-size: 20px; margin-bottom: 0px;">Are you going to recommend this to your friends, family or colleagues?</p>
+                <input type="checkbox" id="def" name="def">
+                <label for="def" class="checkbox-lb2">Definitely</label>
+                
+                <input type="checkbox" id="probably" name="probably" style="margin-left: 200px;">
+                <label for="probably" class="checkbox-lb2">Probably</label>
+
+                <br>
+
+                <input type="checkbox" id="notsure" name="notsure">
+                <label for="notsure" class="checkbox-lb2">Not sure</label>
+
+                <input type="checkbox" id="defnot" name="defnot" style="margin-left: 210px;">
+                <label for="defnot" class="checkbox-lb2">Definitely not</label>
+
+                <br><br><br>
+
+                <p style="font-size: 20px; margin-bottom: 0px;">Are you going to buy this product again?</p>
+                <input type="checkbox" id="yes" name="yes">
+                <label for="yes" class="checkbox-lb2">Yes</label>
+                
+                <input type="checkbox" id="no" name="no" style="margin-left: 200px;">
+                <label for="no" class="checkbox-lb2">No</label>
+
+                <br>
+
+                <input type="checkbox" id="maybe" name="maybe" >
+                <label for="maybe" class="checkbox-lb2">Maybe</label>
+
+                <br><br><br>
+
+                <label for="hlong" class="lb2">How long have you been using this health product?</label>
+                <input type="text" id="hlong", name="hlong">
+                <p><small><i>Months, weeks or days</i></small></p>
+
+
+                <br><br><br>
+
+                <p style="font-size: 20px; margin-bottom: 0px;">Are you familiar with the company who created this health product?</p>
+                <input type="checkbox" id="yes" name="yes">
+                <label for="yes" class="checkbox-lb2">Yes</label>
+
+                <br>
+
+                <input type="checkbox" id="no" name="no">
+                <label for="no" class="checkbox-lb2">No</label>
+
+                <br><br><br>
+
+                <label for="sat" class="lb2">Have you purchased any other products from this company? If yes, are you satisfied with it?</label>
+                <br><br>
+                <textarea id="sat" name="sat" rows="10" cols="95" placeholder="Type here..." style="padding: 20px;"></textarea>
+
+                <br><br><br>
+
+                <p style="font-size: 20px; margin-bottom: 0px;">Does this product have warranty?</p>
+                <input type="checkbox" id="yes" name="yes">
+                <label for="yes" class="checkbox-lb2">Yes</label>
+
+                <br>
+
+                <input type="checkbox" id="no" name="no">
+                <label for="no" class="checkbox-lb2">No</label>
+
+                <br><br><br>
+
+                <label for="hmuch" class="lb2" >How much is this health product($)?</label>
+                <input type="number" id="hmuch", name="hmuch" style="width: 200px; height: 5px;">
+
+                <br><br><br>
+                
+                <p style="font-size: 20px; margin-bottom: 0px;">How often do you use this product?</p>
+                <input type="checkbox" id="mon" name="mon">
+                <label for="mon" class="checkbox-lb2">Monthly</label>
+                
+                <input type="checkbox" id="weekly" name="weekly" style="margin-left: 200px;">
+                <label for="weekly" class="checkbox-lb2">Weekly</label>
+
+                <br>
+
+                <input type="checkbox" id="dai" name="dai">
+                <label for="dai" class="checkbox-lb2">Daily</label>
+
+                <input type="checkbox" id="rare" name="rare" style="margin-left: 225px;">
+                <label for="rare" class="checkbox-lb2">Rarely</label>
+
+                <br>
+
+                <input type="checkbox" id="nev" name="nev" ">
+                <label for="nev" class="checkbox-lb2">Never</label>
+
+                <br><br><br>
+
+                <p style="font-size: 20px; margin-bottom: 0px;">Gender?</p>
+                <input type="checkbox" id="male" name="male">
+                <label for="male" class="checkbox-lb2">Male</label>
+
+                <br>
+
+                <input type="checkbox" id="female" name="female">
+                <label for="female" class="checkbox-lb2">Female</label>
+
+                <br><br><br>
+
+
+                <p style="font-size: 20px; margin-bottom: 0px;">Age Group?</p>
+                <input type="checkbox" id="age1" name="age1">
+                <label for="age1" class="checkbox-lb2">0-14 years old</label>
+                
+                <input type="checkbox" id="age2" name="age2" style="margin-left: 200px;">
+                <label for="age2" class="checkbox-lb2">15-24 years old</label>
+
+                <br>
+
+                <input type="checkbox" id="age3" name="age3">
+                <label for="age3" class="checkbox-lb2">25-64 years old</label>
+
+                <input type="checkbox" id="age4" name="age4" style="margin-left: 190px;">
+                <label for="age4" class="checkbox-lb2">65 years old</label>
+
+                <br><br><br>
+                
+                <label for="pNumber" class="lb2">Participant's Phone Number?</label>
+                <input type="tel" id="pNumber" name="pNumber" placeholder="(000) 000-0000" >
+
+                <br><br><br>
+
+                <label for="pEmail" class="lb2">Participant's email?</label>
+                <input type="email" id="pEmail", name="pEmail">
+                <p><small><i>example@example.com</i></small></p>
+
+                <br><br><br>
+
+                <p style="font-size: 20px; margin-bottom: 0px;">Would it be okay if we contact you so that you can further explain your feedback about our product?</p>
+                <input type="checkbox" id="yes" name="yes">
+                <label for="yes" class="checkbox-lb2">Yes</label>
+
+                <br>
+
+                <input type="checkbox" id="no" name="no">
+                <label for="no" class="checkbox-lb2">No</label>
+
+                <br><br><br>
+
+                <p style="font-size: 20px; margin-bottom: 0px;">Would you like to receive updates and promotional emails from us?</p>
+                <input type="checkbox" id="yes" name="yes">
+                <label for="yes" class="checkbox-lb2">Yes</label>
+
+                <br>
+
+                <input type="checkbox" id="no" name="no">
+                <label for="no" class="checkbox-lb2">No</label>
+
+                <br><br>
+                <hr>
+
+                <input type="submit" value="Submit" style="margin: auto; margin-top: 35px; width: 150px; background-color: aqua; font-size: 20px; font-weight: bold; color: white;">
+
+
+            </form>
+        </article>
+    </article>
+</body>
+</html>

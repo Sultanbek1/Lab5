@@ -1,0 +1,119 @@
+/* html {
+    margin: 5px;
+}
+
+.content {
+    margin: auto;
+    width: 60%;
+    border: 2px solid black;
+}
+
+header {
+    justify-content: center;
+    text-align: center;
+}
+
+.surveyForm {
+    margin:auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.lb2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+label.checkbox-lb {
+    font-weight: normal;
+}
+
+.checkbox-lb2 {
+    font-weight: normal;
+}
+
+input {
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-top: 17px;
+}
+
+#first {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+input[type=checkbox] {
+    display: inline;
+    width: 17px;  
+    height: 17px;
+    background: #ddd;
+    border-radius: 100%;
+    position: relative;
+    margin-top: 15px;
+}
+
+textarea::placeholder {
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th:first-child {
+    border: 0px;
+    background-color: white;
+}
+
+th, td:first-child {
+    background-color: blueviolet;
+}
+
+
+td,th {
+    border: .1px solid black;
+    height: 50px;
+}
+
+.tBox {
+    margin-top: 0;
+}
+
+
+td:first-child {
+    text-align: justify;
+    padding-left: 30px;
+}
+
+
+#sNumber {
+    width: 100%;
+    margin-bottom: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2);
+}
+
+#sDate {
+    width: 300px;
+}
+
+#smallDate {
+    margin-top: 5px;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+#hProductName {
+    width: 300px;
+}
+
+
+ */
